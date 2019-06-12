@@ -1,0 +1,82 @@
+html {
+    background-color: rgba(33, 110, 253, 0.397);
+}
+body {
+    width: 100%;
+}
+/*Navigatie*/
+.topnav {
+    display: grid;
+    grid-template-areas: "home about search";
+    grid-template-columns: 50px auto 165px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#banner {
+    display: flex;
+    flex-flow: wrap;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#banner h1{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+}
+#banner img{
+    width: auto;
+}
+/*Container*/
+#container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.content {
+    display: flex;
+    flex-flow: wrap;
+    width: 80%;
+}
+.content p{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 5px;
+}
+.rec1, .rec2, .rec3, .rec4, .rec5, .rec6, .rec7, .rec8 {
+    margin: auto;
+}
+#container img {
+    width: 250px;
+    height: 350px;
+    margin: 5px 25px;
+}
+#aside {
+    display: flex;
+    border: 1px solid black;
+    width: 20%;
+}
+
+@media screen and (max-width: 576px){
+    
+    
+}
+@media screen and (min-width: 768px){
+
+    #banner {
+        width: 100%;
+    }
+    #container {
+       width: 100%;
+   }
+   .content {
+       width: 80%;
+   }
+   #aside{
+    width: 20%;
+}
+
+}
