@@ -8,7 +8,6 @@ body {
 .topnav {
     display: grid;
     grid-template-columns: 50px auto 180px;
-    
 }
 /*banner*/ 
 #banner img{
